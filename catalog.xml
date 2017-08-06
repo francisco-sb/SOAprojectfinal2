@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/Users/fmsb0/Documents/NetBeansProjects/SOAprojectfinal2/src/java/servicioEntidad/cliente/clienteWSDL.wsdl" uri="src/conf/xml-resources/web-services/clienteService/wsdl/clienteWSDL.wsdl"/>
+    <system systemId="file:/C:/Users/fmsb0/Documents/NetBeansProjects/SOAprojectfinal2/src/java/servicioEntidad/cliente/clienteSchema.xsd" uri="src/conf/xml-resources/web-services/clienteService/wsdl/clienteSchema.xsd"/>
+    <system systemId="file:/C:/Users/fmsb0/Documents/NetBeansProjects/SOAprojectfinal2/src/java/servicioEntidad/empresa/empresaWSDL.wsdl" uri="src/conf/xml-resources/web-services/empresaService/wsdl/empresaWSDL.wsdl"/>
+    <system systemId="file:/C:/Users/fmsb0/Documents/NetBeansProjects/SOAprojectfinal2/src/java/servicioEntidad/empresa/empresaSchema.xsd" uri="src/conf/xml-resources/web-services/empresaService/wsdl/empresaSchema.xsd"/>
+    <system systemId="file:/C:/Users/fmsb0/Documents/NetBeansProjects/SOAprojectfinal2/src/java/servicioUtilidad/registrarDatos/registroDatosWSDL.wsdl" uri="src/conf/xml-resources/web-services/registroDatosService/wsdl/registroDatosWSDL.wsdl"/>
+    <system systemId="file:/C:/Users/fmsb0/Documents/NetBeansProjects/SOAprojectfinal2/src/java/servicioUtilidad/registrarDatos/registroDatosSchema.xsd" uri="src/conf/xml-resources/web-services/registroDatosService/wsdl/registroDatosSchema.xsd"/>
+    <system systemId="file:/C:/Users/fmsb0/Documents/NetBeansProjects/SOAprojectfinal2/src/java/servicioEntidad/vacante/vacanteWSDL.wsdl" uri="src/conf/xml-resources/web-services/vacanteService/wsdl/vacanteWSDL.wsdl"/>
+    <system systemId="file:/C:/Users/fmsb0/Documents/NetBeansProjects/SOAprojectfinal2/src/java/servicioEntidad/vacante/VacanteSchema.xsd" uri="src/conf/xml-resources/web-services/vacanteService/wsdl/VacanteSchema.xsd"/>
+</catalog>
