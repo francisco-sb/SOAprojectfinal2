@@ -97,6 +97,38 @@
         </wsimport-option>
       </wsimport-options>
     </service>
+    <service name="notificacionService">
+      <implementation-class>servicioUtilidad.notificacion.notificacionService</implementation-class>
+      <wsdl-url>file:/C:/Users/Jorge/Documents/NetBeansProjects/SOAprojectfinal2/src/java/servicioUtilidad/notificacion/notificacionWSDL.wsdl</wsdl-url>
+      <local-wsdl-file>notificacionWSDL.wsdl</local-wsdl-file>
+      <service-name>notificacionWSDLService</service-name>
+      <port-name>notificacionWSDLPort</port-name>
+      <package-name>org.netbeans.j2ee.wsdl.soaprojectfinal2.notificacion.notificacionwsdl</package-name>
+      <catalog-file>catalog.xml</catalog-file>
+      <use-provider>false</use-provider>
+      <wsimport-options>
+        <wsimport-option>
+          <wsimport-option-name>extension</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>verbose</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>fork</wsimport-option-name>
+          <wsimport-option-value>false</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>xnocompile</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+        <wsimport-option>
+          <wsimport-option-name>xendorsed</wsimport-option-name>
+          <wsimport-option-value>true</wsimport-option-value>
+        </wsimport-option>
+      </wsimport-options>
+    </service>
   </services>
   <clients/>
   <jsr109>true</jsr109>

@@ -83,5 +83,24 @@
         <delete dir="${build.generated.sources.dir}/jax-ws/org/netbeans/j2ee/wsdl/soaprojectfinal2/vacate/vacantewsdl"/>
         <delete dir="${build.generated.dir}/jax-wsCache/service/vacanteService"/>
     </target>
-    <target name="wsimport-service-generate" depends="wsimport-service-clienteService, wsimport-service-empresaService, wsimport-service-vacanteService"/>
+    <target name="wsimport-service-notificacionService" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/service/notificacionService"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/service/notificacionService" destdir="${build.generated.dir}/jax-wsCache/service/notificacionService" wsdl="${basedir}/${conf-dir}xml-resources/web-services/notificacionService/wsdl/notificacionWSDL.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" xnocompile="true" xendorsed="true">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-services/notificacionService/wsdl/notificacionWSDL.wsdl"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/service/notificacionService"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/service/notificacionService">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy todir="${build.web.dir}/WEB-INF/wsdl/notificacionService">
+            <fileset dir="${basedir}/${conf-dir}xml-resources/web-services/notificacionService/wsdl/"/>
+        </copy>
+    </target>
+    <target name="wsimport-service-clean-notificacionService" depends="-init-project">
+        <delete dir="${build.generated.sources.dir}/jax-ws/org/netbeans/j2ee/wsdl/soaprojectfinal2/notificacion/notificacionwsdl"/>
+        <delete dir="${build.generated.dir}/jax-wsCache/service/notificacionService"/>
+    </target>
+    <target name="wsimport-service-generate" depends="wsimport-service-clienteService, wsimport-service-empresaService, wsimport-service-vacanteService, wsimport-service-notificacionService"/>
 </project>

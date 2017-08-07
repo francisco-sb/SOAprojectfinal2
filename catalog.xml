@@ -8,4 +8,6 @@
     <system systemId="file:/C:/Users/fmsb0/Documents/NetBeansProjects/SOAprojectfinal2/src/java/servicioUtilidad/registrarDatos/registroDatosSchema.xsd" uri="src/conf/xml-resources/web-services/registroDatosService/wsdl/registroDatosSchema.xsd"/>
     <system systemId="file:/C:/Users/fmsb0/Documents/NetBeansProjects/SOAprojectfinal2/src/java/servicioEntidad/vacante/vacanteWSDL.wsdl" uri="src/conf/xml-resources/web-services/vacanteService/wsdl/vacanteWSDL.wsdl"/>
     <system systemId="file:/C:/Users/fmsb0/Documents/NetBeansProjects/SOAprojectfinal2/src/java/servicioEntidad/vacante/VacanteSchema.xsd" uri="src/conf/xml-resources/web-services/vacanteService/wsdl/VacanteSchema.xsd"/>
+    <system systemId="file:/C:/Users/Jorge/Documents/NetBeansProjects/SOAprojectfinal2/src/java/servicioUtilidad/notificacion/notificacionWSDL.wsdl" uri="src/conf/xml-resources/web-services/notificacionService/wsdl/notificacionWSDL.wsdl"/>
+    <system systemId="file:/C:/Users/Jorge/Documents/NetBeansProjects/SOAprojectfinal2/src/java/servicioUtilidad/notificacion/notificacionlSchema.xsd" uri="src/conf/xml-resources/web-services/notificacionService/wsdl/notificacionlSchema.xsd"/>
 </catalog>
